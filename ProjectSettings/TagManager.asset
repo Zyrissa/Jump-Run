@@ -38,15 +38,6 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: ParralaxBackground
-    uniqueID: 2849538065
-    locked: 0
-  - name: ParralaxMiddle
-    uniqueID: 3637039849
-    locked: 0
-  - name: ParralaxForeground
-    uniqueID: 1705115425
-    locked: 0
   - name: Background
     uniqueID: 1708004495
     locked: 0
