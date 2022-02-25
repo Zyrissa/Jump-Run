@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class LevelScript : MonoBehaviour
 {
-   void Pass() 
+    void Pass()
     {
         int currentLevel = SceneManager.GetActiveScene().buildIndex;
 
@@ -17,3 +17,4 @@ public class LevelScript : MonoBehaviour
         Debug.Log("LEVEL " + PlayerPrefs.GetInt("levelsUnlocked") + " UNLOCKED");
     }
 }
+
