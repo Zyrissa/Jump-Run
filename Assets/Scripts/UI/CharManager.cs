@@ -24,7 +24,7 @@ public class CharManager : MonoBehaviour
 
     public void BackOpt()
     {
-        selectedChar = selectedChar + 1;
+        selectedChar = selectedChar - 1;
         if (selectedChar < 0)
         {
             selectedChar = Designs.Count - 1;
