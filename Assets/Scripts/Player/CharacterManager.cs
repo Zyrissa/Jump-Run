@@ -23,13 +23,22 @@ public class CharacterManager : MonoBehaviour
     }
     
     void OnTriggerEnter2D(Collider2D other)
+    {
+        if(other.tag == "Coin")
         {
-            if(other.tag == "Coin")
-            {
-                itemCount++;
-                Destroy(other.gameObject);
-                Debug.Log("Münze aufgesammelt!");
-                Debug.Log("Score: " +itemCount);
-            }
+            itemCount++;
+            Destroy(other.gameObject);
+            Debug.Log("Münze aufgesammelt!");
+            Debug.Log("Score: " +itemCount);
         }
+    }
+
+    void OnCollisionEnter2D(Collision2D other)
+    {
+        if(other.gameObject.tag == "Enemy")
+        {
+            life--;
+            Debug.Log("Life: " +life);
+        }
+    }
 }
