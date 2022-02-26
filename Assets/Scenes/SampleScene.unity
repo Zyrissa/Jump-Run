@@ -1630,7 +1630,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hud: {fileID: 921632379}
-  selected: {fileID: 4722504291066623671, guid: 41d611ede69eec64e859b95b25974976, type: 3}
+  selected: {fileID: 8833427825504293793, guid: 6676369927cd4e94cbad08e18ddafb16, type: 3}
   Player: {fileID: 2073774633}
 --- !u!1 &1706939557
 GameObject:
