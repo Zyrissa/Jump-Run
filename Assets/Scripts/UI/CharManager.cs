@@ -27,7 +27,7 @@ public class CharManager : MonoBehaviour
         selectedChar = selectedChar + 1;
         if (selectedChar < 0)
         {
-            selectedChar = Designs.Count -1;
+            selectedChar = Designs.Count - 1;
         }
 
         sr.sprite = Designs[selectedChar];
