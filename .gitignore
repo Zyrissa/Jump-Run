@@ -11,11 +11,6 @@
 [Mm]emoryCaptures/
 Projekt Wildes Bowling/[Aa]ssets/[Oo]culus
 
-# Ignore these Oculus files because they store your secret App ID
-Projekt Wildes Bowling/Assets/Resources/OvrAvatarSettings.asset
-Projekt Wildes Bowling/Assets/Resources/OculusPlatformSettings.asset
-Projekt Wildes Bowling/Assets/Resources/OculusPlatformSettings.asset.meta
-
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
 
