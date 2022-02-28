@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637816426585503026
-    m_Hash: 2401662914
+      ticks: 637816474774021443
+    m_Hash: 20133028
   m_LockFileStatus:
     m_FilePath: C:/Users/j-hic/Documents/GitHub/Jump-Run/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637816426585682918
-    m_Hash: 2299131273
+      ticks: 637816474774031424
+    m_Hash: 115406043
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
