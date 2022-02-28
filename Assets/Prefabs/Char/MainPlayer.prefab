@@ -57,6 +57,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5251468561169770181}
   - component: {fileID: 5251468561169770182}
+  - component: {fileID: 7110571369529174856}
   - component: {fileID: 5251468561169770183}
   - component: {fileID: 5251468561169770176}
   - component: {fileID: 5251468561169770177}
@@ -133,6 +134,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &7110571369529174856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5251468561169770178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94ea03795eb1c2c4cb90616b084f5b1a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 5251468561169770177}
+  animator: {fileID: 0}
+  runSpeed: 40
 --- !u!61 &5251468561169770183
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -192,10 +208,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cb613033d097d843b4cc500287a464a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 5
-  jumpForce: 5
-  jumpsAmount: 1
-  GroundCheck: {fileID: 5251468560329219375}
-  GroundLayer:
+  m_JumpForce: 400
+  m_CrouchSpeed: 0.36
+  m_MovementSmoothing: 0.05
+  m_WhatIsGround:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
+  m_GroundCheck: {fileID: 0}
+  OnLandEvent:
+    m_PersistentCalls:
+      m_Calls: []
